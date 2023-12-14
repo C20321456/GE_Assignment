@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://u8pxmwp27rwb"
+path="res://.godot/imported/Michael Wyckoff & Jonathan LaMarche - Pick It Up (Ima Say Ma Namowa) [Boneworks Radio Song].mp3-29f54d16eb8746ed2167dce75fca609b.mp3str"
+
+[deps]
+
+source_file="res://scenes/assignment/assignment_Music/Michael Wyckoff & Jonathan LaMarche - Pick It Up (Ima Say Ma Namowa) [Boneworks Radio Song].mp3"
+dest_files=["res://.godot/imported/Michael Wyckoff & Jonathan LaMarche - Pick It Up (Ima Say Ma Namowa) [Boneworks Radio Song].mp3-29f54d16eb8746ed2167dce75fca609b.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
