@@ -2,7 +2,6 @@ extends RigidBody3D
 
 # Adjust this speed value according to your AI preference
 var speed = 200
-
 var balls = []
 
 func _ready():
@@ -11,11 +10,15 @@ func _ready():
 		if node.filename.ends_with("ping_pong_ball.tscn"):
 			balls.append(node)
 	
-	PhysicsServer3D.body_set_axis_lock(get_rid(), 2, true) # Locks movement along the Y-axis
+	PhysicsServer3D.body_set_axis_lock(get_rid(), 2, true)
+	# Locks movement along the Z-axis. so it always stays in front of the table
+	#0 for X-axis
+	#1 for Y-axis
+	#2 for Z-axis
 
 func _process(delta):
 	var closest_ball = null
-	var closest_distance = 1000000 # Set a large initial distance
+	var closest_distance = 1000000 # Set a large initial distance 1000000
 	
 	for ball in balls:
 		var ball_position = ball.global_transform.origin
@@ -26,8 +29,9 @@ func _process(delta):
 			closest_ball = ball
 	
 	if closest_ball:
-		var ball_position = closest_ball.global_transform.origin
-	
-		if ball_position.x > global_transform.origin.x:
-			var direction = (ball_position - global_transform.origin).normalized()
+		var closest_ball_position = closest_ball.global_transform.origin
+   
+		if closest_ball_position.z > global_transform.origin.z:
+			# Move towards the ball only along the X-axis
+			var direction = Vector3(closest_ball_position.x - global_transform.origin.x, 0, 0).normalized()
 			move_and_collide(direction * speed * delta)
