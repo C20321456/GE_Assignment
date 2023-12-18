@@ -38,7 +38,7 @@ _surfaces = [{
 blend_shape_mode = 0
 shadow_mesh = SubResource("ArrayMesh_bbipk")
 
-[node name="AI_Paddle" type="RigidBody3D"]
+[node name="AI_Paddle" type="CharacterBody3D"]
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
 shape = SubResource("ConvexPolygonShape3D_or5xd")

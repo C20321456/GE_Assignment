@@ -1,6 +1,7 @@
-[gd_scene load_steps=10 format=3 uid="uid://coqjbivi8c757"]
+[gd_scene load_steps=11 format=3 uid="uid://coqjbivi8c757"]
 
 [ext_resource type="Material" uid="uid://c3npqgwm8y0sc" path="res://assets/digitaln8m4r3/materials/ping_pong.material" id="1_oww8w"]
+[ext_resource type="Script" path="res://scenes/audio_demo/objects/bounce.gd" id="2_dewg4"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_vgc2n"]
 
@@ -76,6 +77,7 @@ data = PackedVector3Array(0.861, 1.176, 0, 0.93, 1.1736, -0.0025, 0.8585, 1.1736
 mesh = SubResource("ArrayMesh_2kstr")
 skeleton = NodePath("")
 surface_material_override/0 = ExtResource("1_oww8w")
+script = ExtResource("2_dewg4")
 
 [node name="StaticBody3D" type="StaticBody3D" parent="table/table_01"]
 
