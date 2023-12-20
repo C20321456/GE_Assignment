@@ -1,6 +1,5 @@
 extends MeshInstance3D
 
-
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	var static_body = get_node("StaticBody3D")  # Assuming StaticBody3D is the parent of CollisionShape3D
