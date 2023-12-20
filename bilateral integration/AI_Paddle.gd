@@ -10,6 +10,7 @@ func _ready():
 		if node.filename.ends_with("ping_pong_ball.tscn"):
 			balls.append(node)
 
+#he he ha ah
 func _process(delta):
 	var closest_ball = null
 	var closest_distance = 1000000 # Set a large initial distance 1000000
