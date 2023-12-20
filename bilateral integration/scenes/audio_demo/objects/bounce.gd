@@ -7,7 +7,7 @@ func _ready():
 
 	if static_body:
 		var physics_material = PhysicsMaterial.new()
-		physics_material.bounce = 10.0  # Adjust this value to your desired bounciness
+		physics_material.bounce = 15.0  # Adjust this value to your desired bounciness
 
 		# Apply the physics material to the StaticBody3D
 		static_body.set_physics_material_override(physics_material)

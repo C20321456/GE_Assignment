@@ -36,79 +36,18 @@ using the code PhysicsServer3D.body_set_axis_lock(get_rid(), 2, true) we can loc
 
 
 # References
-* All References come from the XRToolkit that is found inside of the folder, assets mainly taken from the Audio Demo scene. 
+* All References come from the XRToolkit that is found inside of the folder, assets mainly taken from the Audio Demo scene.
+* The aduio demo can be found within the folder called aduio_demo and its found in the scenes folder
 
 # What I am most proud of in the assignment
+* doing a VR table tennis was no walk in the park, I had never wrote AI code within a game, I did manage to make the AI paddle float but I could'nt make it move
+* but disocvering new stuff like grouping all the ping pong balls into one so that it can detect them all. and also how to make a surface bounceable
 
 # What I learned
+* what I learned from this was using a script onto a staticbody3D, you can make a surface more bounceable. meaning that you can drop an object like the ping pong ball onto the surface and it will do a small bounce
+* Another thing I learned was that you can group up a bunch of objects for example if you had more then one ping pong ball. you can make the AI to try and detect them all with the ball distance and how close is it to the paddle.
 
 # Proposal submitted earlier can go here:
 
-## This is how to markdown text:
 
-This is *emphasis*
-
-This is a bulleted list
-
-- Item
-- Item
-
-This is a numbered list
-
-1. Item
-1. Item
-
-This is a [hyperlink](http://bryanduggan.org)
-
-# Headings
-## Headings
-#### Headings
-##### Headings
-
-This is code:
-
-```Java
-public void render()
-{
-	ui.noFill();
-	ui.stroke(255);
-	ui.rect(x, y, width, height);
-	ui.textAlign(PApplet.CENTER, PApplet.CENTER);
-	ui.text(text, x + width * 0.5f, y + height * 0.5f);
-}
-```
-
-So is this without specifying the language:
-
-```
-public void render()
-{
-	ui.noFill();
-	ui.stroke(255);
-	ui.rect(x, y, width, height);
-	ui.textAlign(PApplet.CENTER, PApplet.CENTER);
-	ui.text(text, x + width * 0.5f, y + height * 0.5f);
-}
-```
-
-This is an image using a relative URL:
-
-![An image](images/p8.png)
-
-This is an image using an absolute URL:
-
-![A different image](https://bryanduggandotorg.files.wordpress.com/2019/02/infinite-forms-00045.png?w=595&h=&zoom=2)
-
-This is a youtube video:
-
-[![YouTube](http://img.youtube.com/vi/J2kHSSFA4NU/0.jpg)](https://www.youtube.com/watch?v=J2kHSSFA4NU)
-
-This is a table:
-
-| Heading 1 | Heading 2 |
-|-----------|-----------|
-|Some stuff | Some more stuff in this column |
-|Some stuff | Some more stuff in this column |
-|Some stuff | Some more stuff in this column |
-|Some stuff | Some more stuff in this column |
 

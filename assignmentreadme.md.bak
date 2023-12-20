@@ -1,33 +1,42 @@
-# Project Title
+# Table tennis in VR
 
-Name:
+Name: Mykolas Kubilius
 
-Student Number: 
+Student Number: C20321456
 
-Class Group:
+Class Group: Solo Racketeer
 
 Video:
 
 [![YouTube](http://img.youtube.com/vi/J2kHSSFA4NU/0.jpg)](https://www.youtube.com/watch?v=J2kHSSFA4NU)
 
 # Description of the project
+This is a project that allows the user to have a relaxing game of table tennis with an AI table tennis racket as its opponent
 
 # Instructions for use
-
+Hold thumb grip to pick up the racket as well as the ball and simply smack your ball onto your side of the table and make sure it hits onto the opponents side
 
 # How it works
+The ball and racket utilise the pickable function that allows the user to be able to pick up the racket and ball.
+The way the way the AI works is by first setting the racket to zero gravity so that the racket doesnt fall down and stays consistant to its position in front of the table,
+using the code PhysicsServer3D.body_set_axis_lock(get_rid(), 2, true) we can lock the paddle on the Y-axis
 
 # List of classes/assets in the project
 
 | Class/asset | Source |
 |-----------|-----------|
-| MyClass.cs | Self written |
-| MyClass1.cs | Modified from [reference]() |
-| MyClass2.cs | From [reference]() |
+| Boneroot.cs | From [XRToolkit]() |
+| PingPongBall.cs | From [XRToolkit]() |
+| AI_Paddle.cs | Self Written |
+| PingPongRacket.cs | From [XRToolkit]() |
+| Table.asset | From [XRToolkit]() |
+| PingPongTable.asset | From [XRToolkit]() |
+| BasicMap.asset | From [XRToolkit]() |
+| AudioStreamPlayer.asset | From [YouTube]() |
+
 
 # References
-* Item 1
-* Item 2
+* All References come from the XRToolkit that is found inside of the folder, assets mainly taken from the Audio Demo scene. 
 
 # What I am most proud of in the assignment
 
