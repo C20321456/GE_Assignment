@@ -12,3 +12,5 @@ func _ready():
 		static_body.set_physics_material_override(physics_material)
 	else:
 		print("StaticBody3D node not found!")
+
+#this line blah blah balh
