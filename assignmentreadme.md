@@ -44,7 +44,8 @@ the paddle drops down onto the floor. in short it tells the paddle that it doesn
 
 # What I am most proud of in the assignment
 * doing a VR table tennis was no walk in the park, I had never wrote AI code within a game, I did manage to make the AI paddle float but I could'nt make it move
-* but disocvering new stuff like grouping all the ping pong balls into one so that it can detect them all. and also how to make a surface bounceable, this helps the ball to
+
+* disocvering new stuff like grouping all the ping pong balls into one so that it can detect them all. and also how to make a surface bounceable, this helps the ball to
 be able to have something soft to bounce on, since the ball is light it can have a constant bounce until it just stays on the tables surface. I had a lot of fun simply playing the game,
 it felt like a simple singleplayer game that you can practice your ping pong skills
 
